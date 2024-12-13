@@ -1,5 +1,9 @@
 name: Publish Docker image
 
+env:
+  REGISTRY: cyprienguillemot
+  IMAGE_NAME: goatcounter
+
 on:
   push:
     branches: ["main"]
